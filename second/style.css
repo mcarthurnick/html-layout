@@ -1,0 +1,38 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column-1 {
+  background-color: #2898E2;
+  height: 800px;
+  width: 33%;
+  float: left;
+}
+
+.column-2 {
+  background-color: #3EEFC0;
+  height: 800px;
+  width: 33%;
+  float: left;
+}
+
+.column-3 {
+  background-color: #C5FA75;
+  height: 800px;
+  width: 33%;
+  float: left;
+}
+
+.image-placeholder {
+  background-color: red;
+  height: 150px;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 150px;
+  color: #fff;
+  margin-top: 650px;
+  font-size: 20px;
+}
